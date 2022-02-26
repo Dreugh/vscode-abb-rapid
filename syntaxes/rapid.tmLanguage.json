@@ -35,15 +35,15 @@
       "patterns": [
         {
           "name": "keyword.control.rapid",
-          "match": "\\b(IF|THEN|ELSE|ELSEIF|ENDIF|FOR|FROM|TO|DO|ENDFOR|WHILE|DO|ENDWHILE|RETURN|CONNECT|EXIT|GOTO|RAISE|RETRY|TRYNEXT)\\b"
+          "match": "\\b(ERROR|UNDO|IF|THEN|ELSE|ELSEIF|ENDIF|FOR|FROM|TO|DO|ENDFOR|WHILE|DO|ENDWHILE|RETURN|CONNECT|EXIT|GOTO|RAISE|RETRY|TRYNEXT)\\b"
         },
         {
           "name": "keyword.storage.modifier.rapid",
-          "match": "\\b(LOCAL|CONST|VAR|PERS|IN|OUT|INOUT)\\b"
+          "match": "\\b(TASK|LOCAL|CONST|VAR|PERS|IN|OUT|INOUT)\\b"
         },
         {
           "name": "keyword.control.type.rapid",
-          "match": "\\b(MODULE|ENDMODULE|PROC|ENDPROC|FUNC|ENDFUNC|RECORD|ENDRECORD)\\b"
+          "match": "\\b(MODULE|ENDMODULE|PROC|ENDPROC|FUNC|ENDFUNC|TRAP|ENDTRAP|RECORD|ENDRECORD)\\b"
         },
         {
           "name": "support.type.rapid",
